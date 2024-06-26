@@ -1,0 +1,12 @@
+.cart-content.enter {
+  animation: slide-from-right 5s ease-in-out forwards;
+}
+
+@keyframes slide-from-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
